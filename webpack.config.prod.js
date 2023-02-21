@@ -12,6 +12,12 @@ module.exports = {
     path: path.resolve(__dirname, 'dist', 'assets', 'scripts'),
     publicPath: 'dist/assets/scripts/'
   },
+
+  // module: {
+  //   rules: [{ test: /\.txt$/, use: 'raw-loader' }],
+  // },
+
+  // plugins: [new HtmlWebpackPlugin({ template: './dist/index.html' })],
   // devtool: 'cheap-source-map',
   // plugins: [new CleanPlugin.CleanWebpackPlugin()]
 };
